@@ -4,13 +4,13 @@
       <img src="@/assets/img/08-弹窗/关闭-按钮.png">
     </div>
     <div class="addTips">
-      微信扫码添加小助手
+      {{ $t('QRcode.QRcode-title') }}
     </div>
     <div class="serviceQRcode">
       <img src="@/assets/img/08-弹窗/二维码.png">
     </div>
     <div class="knowMore">
-      了解更多课程详情、优惠信息、申领免费资料
+      {{ $t('QRcode.QRcode-tips') }}
     </div>
   </div>
 </template>
@@ -69,6 +69,7 @@
       }
     }
     .knowMore{
+      text-align: center;
       font-size: 18px;
       color: #fff;
       width: fit-content;

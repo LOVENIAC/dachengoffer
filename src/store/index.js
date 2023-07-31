@@ -10,6 +10,11 @@ const actions = {
 }
 
 const mutations = {
+  HIDECOVER(state){
+    state.isCover = false;
+    state.qRCodeStatus = false;
+    state.dialogStatus = false;
+  },
   SHOWQRCODE(state){
     state.isCover = true;
     state.qRCodeStatus = true;
@@ -18,11 +23,20 @@ const mutations = {
     state.isCover = false;
     state.qRCodeStatus = false;
   },
+  POPUPS(state){
+    state.isCover = true;
+    state.dialogStatus = true;
+  },
+  POPDOWNS(state){
+    state.isCover = false;
+    state.dialogStatus = false;
+  }
 }
 
 const state = {
   isCover: false,
-  qRCodeStatus: false
+  qRCodeStatus: false,
+  dialogStatus: false
 }
 
 export default new Vuex.Store({

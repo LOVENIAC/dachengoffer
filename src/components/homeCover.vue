@@ -8,7 +8,7 @@
     name: 'homeCover',
     methods:{
       hideQRcode(){
-        this.$store.commit('HIDEQRCODE');
+        this.$store.commit('HIDECOVER');
       }
     }
   }
