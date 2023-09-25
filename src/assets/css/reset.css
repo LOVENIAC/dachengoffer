@@ -159,6 +159,6 @@ input:-webkit-autofill {
   * {
     box-sizing: border-box;
     font-family: "Microsoft Yahei", "PingFang SC", "Hiragino Sans GB", STHeiti,
-      "Microsoft Sans Serif", sans-serif !important;
+      "Microsoft Sans Serif", sans-serif;
   }
   

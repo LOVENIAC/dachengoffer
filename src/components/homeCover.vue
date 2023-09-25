@@ -5,7 +5,7 @@
 
 <script>
   export default {
-    name: 'homeCover',
+    name: 'HomeCover',
     methods:{
       hideQRcode(){
         this.$store.commit('HIDECOVER');

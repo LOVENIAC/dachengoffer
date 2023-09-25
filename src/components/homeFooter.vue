@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: "homeFooter",
+  name: "HomeFooter",
 };
 </script>
 
@@ -60,9 +60,9 @@ export default {
     width: 1200px;
     height: 160px;
     .footer-logo {
-      margin-right: 95px;
-      width: 200px;
-      height: 38px;
+      margin-right: 125px;
+      width: 133px;
+      height: 36px;
     }
     .footer-text {
       max-width: 700px;

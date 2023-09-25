@@ -6,21 +6,20 @@
       <div class="aboutUs">
         <div class="aboutUs-title">{{ $t('footer.footer-info.about-us') }}</div>
         <div class="aboutUs-content">
-          <div class="aboutUs-logo">
-            <img src="@/assets/img/09-关于我们/logo.png">
-          </div>
           <div class="aboutUs-info">
             <div
               :class="`aboutUs-colorText ${$i18n.locale==='en'?'aboutUs-colorText-en':''}`"
             >
               {{ $t('大乘offer') }}
             </div>
-            <div class="aboutUs-slogan">
+            <!-- <div class="aboutUs-slogan">
               {{ $t('slogan') }}
-            </div>
-            <span>
-              {{ $t('companyDes') }}
+            </div> -->
+            <span v-html="$t('AboutUs-companyDes')">
             </span>
+          </div>
+          <div class="aboutUs-logo">
+            <img src="@/assets/img/01-导航栏/logo.png">
           </div>
         </div>
       </div>
@@ -53,14 +52,14 @@
 </template>
 
 <script>
-  import myHeader from '@/components/myHeader.vue';
-  import homeFooter from '@/components/homeFooter.vue';
+  import MyHeader from '@/components/MyHeader';
+  import HomeFooter from '@/components/HomeFooter';
 
   export default {
     name: 'dachengAboutUs',
     components:{
-      myHeader,
-      homeFooter
+      MyHeader,
+      HomeFooter
     }
   }
 </script>
@@ -81,7 +80,7 @@
       margin: 0 auto;
       border-radius: 20px;
       overflow: hidden;
-      height: 470px;
+      height: fit-content;
       background-color: #fff;
       box-shadow: 0 5px #daecfd;
       .aboutUs-title{
@@ -93,22 +92,28 @@
         text-align: center;
       }
       .aboutUs-content{
-        position: relative;
+        display: flex;
         .aboutUs-logo{
-          position: absolute;
-          top: 124px;
-          right: 125px;
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 200px;
+          }
         }
         .aboutUs-info{
           width: 725px;
+          padding: 30px 0;
           padding-left: 82px;
           span{
+            margin-top: 10px;
+            display: block;
             font-size: 18px;
             color: #2a2a2b;
             line-height: 40px;
           }
           .aboutUs-colorText{
-            padding-top: 75px;
             width: fit-content;
             font-size: 36px;
             font-weight: bold;

@@ -9,7 +9,7 @@
 
 <script>
   export default {
-    name: 'dialogPop',
+    name: 'DialogPop',
     methods:{
       hideDialog(){
         this.$store.commit('POPDOWNS');
@@ -22,7 +22,7 @@
   .dialogWrap{
     overflow: hidden;
     animation: a 0.5s linear;
-    background: url('@/assets/img/10-首页弹窗/弹窗.png') no-repeat;
+    background: url('https://nodestatic.fbstatic.cn/pan/downloads/a42b56fdb165b71db0b71f4f99b75e4f.png') no-repeat;
     background-size: 100%;
     text-align: center;
     padding: 30px;

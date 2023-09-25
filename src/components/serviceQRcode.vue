@@ -17,7 +17,7 @@
 
 <script>
   export default {
-    name: 'serviceQRcode',
+    name: 'ServiceQRcode',
     methods:{
       hideQRcode(){
         this.$store.commit('HIDEQRCODE');
@@ -32,7 +32,7 @@
     z-index: 300;
     height: 400px;
     width: 600px;
-    background: url('@/assets/img/08-弹窗/弹窗背景.png');
+    background: url('https://nodestatic.fbstatic.cn/pan/downloads/c0f6f363ac772507208348dcf3e4452d.png');
     border-radius: 30px;
     position: fixed;
     left: 50%;

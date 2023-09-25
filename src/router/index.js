@@ -1,10 +1,28 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import mHome from '../pages/home'
-import dachengUserAgreement from '../pages/footer/dacheng-user-agreement'
-import dachengPrivacy from '../pages/footer/dacheng-privacy'
-import dachengAboutUs from '../pages/footer/dacheng-aboutus'
-import dachengUseClauses from '../pages/footer/dacheng-use-clauses'
+import MyHome from '@/pages/MyHome'
+import MyAbroad from "@/pages/abroad/Abroad";
+import MyOffer from "@/pages/offer/Offer";
+import dachengUserAgreement from '@/pages/footer/dacheng-user-agreement'
+import dachengPrivacy from '@/pages/footer/dacheng-privacy'
+import dachengAboutUs from '@/pages/footer/dacheng-aboutus'
+import dachengUseClauses from '@/pages/footer/dacheng-use-clauses'
+// 获取原型对象push函数
+const originalPush = VueRouter.prototype.push
+
+// 获取原型对象replace函数
+const originalReplace = VueRouter.prototype.replace
+
+// 修改原型对象中的push函数
+VueRouter.prototype.push = function push(location){
+return originalPush.call(this , location).catch(err=>err)
+}
+
+// 修改原型对象中的replace函数
+VueRouter.prototype.replace = function replace(location){
+return originalReplace.call(this , location).catch(err=>err)
+}
+
 
 Vue.use(VueRouter)
 
@@ -13,7 +31,24 @@ export default new VueRouter({
   routes:[
     {
       path: '/',
-      component: mHome
+      component: MyHome,
+      redirect: '/dacheng-abroad',
+      children:[
+        {
+          path: 'dacheng-abroad',
+          component: MyAbroad,
+          meta: {
+            title: '大乘'
+          }
+        },
+        {
+          path: 'dacheng-offer',
+          component: MyOffer,
+          meta: {
+            title: '大乘'
+          }
+        },
+      ]
     },
     {
       path: '/dacheng-privacy',
