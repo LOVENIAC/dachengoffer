@@ -10,7 +10,7 @@
             <div
               :class="`aboutUs-colorText ${$i18n.locale==='en'?'aboutUs-colorText-en':''}`"
             >
-              {{ $t('大乘offer') }}
+              {{ $t('竟乘') }}
             </div>
             <!-- <div class="aboutUs-slogan">
               {{ $t('slogan') }}

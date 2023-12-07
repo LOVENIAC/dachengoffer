@@ -3,9 +3,9 @@
     <!-- banner -->
     <div class="banner">
       <div class="banner-content">
-        <div class="banner-title">大乘留学</div>
+        <div class="banner-title">竟乘留学</div>
         <div class="banner-des">
-          大乘留学隶属于北京倍学管理咨询服务有限公司，我们以”职业导向型留学规划”为核心理念，深耕留学培训行业，
+          竟乘留学隶属于北京竟乘管理咨询服务有限公司，我们以”职业导向型留学规划”为核心理念，深耕留学培训行业，
           <span style="font-weight: bold;">业务范围涵盖：名校留学申请、海外生活服务、就业求职规划等，旨在一站式解决留学及求职问题。</span>
         </div>
       </div>
@@ -60,11 +60,11 @@
               <span>了解更多留学规划信息、定制专属留学服务</span>
               <div>
                 <span>微信扫码添加小助手</span>
-                <img src="@/assets/img/大乘留学/03-项目类别/指引箭头.png">
+                <img src="@/assets/img/竟乘留学/03-项目类别/指引箭头.png">
               </div>
             </div>
             <div class="serviceQRCode">
-              <img src="@/assets/img/大乘留学/03-项目类别/二维码.png">
+              <img src="@/assets/img/竟乘留学/03-项目类别/二维码.png">
             </div>
           </div>
         </div>
@@ -165,8 +165,8 @@
 </template>
 
 <script>
-import "@/assets/font/BebasNeue-Regular.ttf";
-import "@/assets/font/Alibaba-PuHuiTi-Regular.ttf";
+// import "@/assets/font/BebasNeue-Regular.ttf";
+// import "@/assets/font/Alibaba-PuHuiTi-Regular.ttf";
 export default {
   name: "MyAbroad",
   data() {
@@ -205,98 +205,98 @@ export default {
       ],
       itemCategoryList: [
         {
-          background: require("@/assets/img/大乘留学/03-项目类别/背景-美国名校计划.png"),
-          avatar: require("@/assets/img/大乘留学/03-项目类别/icon-美国名校计划.png"),
+          background: require("@/assets/img/竟乘留学/03-项目类别/背景-美国名校计划.png"),
+          avatar: require("@/assets/img/竟乘留学/03-项目类别/icon-美国名校计划.png"),
           title: "美国名校计划<br/>（含TOP 30）",
         },
         {
-          background: require("@/assets/img/大乘留学/03-项目类别/背景-英国名校计划.png"),
-          avatar: require("@/assets/img/大乘留学/03-项目类别/icon-英国名校计划.png"),
+          background: require("@/assets/img/竟乘留学/03-项目类别/背景-英国名校计划.png"),
+          avatar: require("@/assets/img/竟乘留学/03-项目类别/icon-英国名校计划.png"),
           title: "英国名校计划<br/>（含G5）",
         },
         {
-          background: require("@/assets/img/大乘留学/03-项目类别/背景-多目的地申请计划.png"),
-          avatar: require("@/assets/img/大乘留学/03-项目类别/icon-多目的地申请计划.png"),
+          background: require("@/assets/img/竟乘留学/03-项目类别/背景-多目的地申请计划.png"),
+          avatar: require("@/assets/img/竟乘留学/03-项目类别/icon-多目的地申请计划.png"),
           title: "多目的地申请计划",
         },
         {
-          background: require("@/assets/img/大乘留学/03-项目类别/背景-高端博士计划.png"),
-          avatar: require("@/assets/img/大乘留学/03-项目类别/icon-高端博士计划.png"),
+          background: require("@/assets/img/竟乘留学/03-项目类别/背景-高端博士计划.png"),
+          avatar: require("@/assets/img/竟乘留学/03-项目类别/icon-高端博士计划.png"),
           title: "高端博士计划",
         },
       ],
       serviceContentList: [
         {
           title: "个性定校",
-          background: require("@/assets/img/大乘留学/04-服务内容/01.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/个性定校icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/01.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/个性定校icon.png"),
           text: "根据学生就读院校及专业背景情况，结合出国预算、语言要求以及学校录取要求等，以专业排名、学校综合排名、将来就业发展为参考维度，提供1V1规划服务。",
         },
         {
           title: "背景提升",
-          background: require("@/assets/img/大乘留学/04-服务内容/02.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/背景提升icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/02.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/背景提升icon.png"),
           text: "根据初步的目标院校和专业，制定完善具体的硬性和软性背景提升计划。与此同时，全程严格按照申请规划时间线跟进学生状态，软硬兼施，帮助学生实现双突破。",
         },
         {
           title: "文书服务",
-          background: require("@/assets/img/大乘留学/04-服务内容/03.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/文书服务icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/03.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/文书服务icon.png"),
           text: "资深文书老师原创，不限修改次数，外籍导师润色语言。",
         },
         {
           title: "面试辅导",
-          background: require("@/assets/img/大乘留学/04-服务内容/04.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/面试辅导icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/04.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/面试辅导icon.png"),
           text: "相关专业学长学姐提供资深的行为面和技术面辅导。",
         },
         {
           title: "海外服务",
-          background: require("@/assets/img/大乘留学/04-服务内容/05.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/海外服务icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/05.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/海外服务icon.png"),
           text: "提供完善的海外接机，住宿等生活服务；转学、转专业、课后辅导等学习服务。",
         },
         {
           title: "求职指导",
-          background: require("@/assets/img/大乘留学/04-服务内容/06.png"),
-          icon: require("@/assets/img/大乘留学/04-服务内容/求职指导icon.png"),
+          background: require("@/assets/img/竟乘留学/04-服务内容/06.png"),
+          icon: require("@/assets/img/竟乘留学/04-服务内容/求职指导icon.png"),
           text: "提供名企实习、海外求职、考公考编等就业服务，助力学生斩获理想offer。",
         },
       ],
       coverSubjectList: [
         {
           subject: "商科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/商科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/商科-背景.png"),
           detail:
             "金融 | 会计 | 管理 | 市场 | 精算量化<br/>金融 | 金融科技 | 工商管理<br/>人力资源管理 | 物流管理",
         },
         {
           subject: "文科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/文科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/文科-背景.png"),
           detail:
             "文学 | 政治 | 历史 | 哲学 | 拉丁语<br/>比较文学 | 古希腊语 | 西班牙语<br/>东亚文化研究",
         },
         {
           subject: "理科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/理科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/理科-背景.png"),
           detail:
             "数学 | 统计 | 物理 | 化学 | 生物<br/>地质 | 医学 | 药学 | 神经科学<br/>牙医学 | 临床心理学",
         },
         {
           subject: "工科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/工科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/工科-背景.png"),
           detail:
             "计算机科学 | 电子电气工程<br/>化学工程 | 生物医药工程<br/>通信工程 | 机械工程 | 材料工程<br/>信息工程 | 土木工程 | 软件工程",
         },
         {
           subject: "社科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/社科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/社科-背景.png"),
           detail:
             "经济 | 社会 | 传媒 | 法律 | 教育<br/>国际关系 | 公共政策 | 公共卫生<br/>社会心理| 教育心理",
         },
         {
           subject: "艺术与交叉学科",
-          subjectBackground: require("@/assets/img/大乘留学/05-覆盖学科分支/艺术与交叉学科-背景.png"),
+          subjectBackground: require("@/assets/img/竟乘留学/05-覆盖学科分支/艺术与交叉学科-背景.png"),
           detail:
             "建筑设计 | 交互设计 | 平面设计<br/>服装设计 | 城市规划 | 设计管理<br/>音乐教育 | 音乐管理 | 钢琴演奏",
         },
@@ -306,49 +306,49 @@ export default {
           name: "曹老师",
           major: "数学专业",
           des: "帝国理工学院博士<br/>剑桥大学硕士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/曹老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/曹老师.png"),
         },
         {
           name: "崔老师",
           major: "化学专业",
           des: "剑桥大学博士<br/>帝国理工学院硕士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/崔老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/崔老师.png"),
         },
         {
           name: "方老师",
           major: "数据科学专业",
           des: "伦敦大学学院硕士<br/>曼切斯特大学学士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/方老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/方老师.png"),
         },
         {
           name: "唐老师",
           major: "教育学专业",
           des: "剑桥大学博士<br/>剑桥大学硕士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/唐老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/唐老师.png"),
         },
         {
           name: "陆老师",
           major: "<br/>金融工程+计算机专业",
           des: "帝国理工学院硕士<br/>西郊利物浦大学学士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/陆老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/陆老师.png"),
         },
         {
           name: "Martin老师",
           major: "",
           des: "FLAG面试官<br/>藤校计算机硕士<br/>清华大学学士",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/Martin老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/Martin老师.png"),
         },
         {
           name: "Alex老师",
           major: "",
           des: "北美大厂在职<br/>斩获近十家大中厂offer<br/>面试通过率高达90%",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/Alex老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/Alex老师.png"),
         },
         {
           name: "七海老师",
           major: "",
           des: "陆本CS，美国CS硕士<br/>斩获十几家大中厂offer<br/>帮助100+名同学成功转码上岸",
-          avatar: require("@/assets/img/大乘留学/06-顾问团队/七海老师.png"),
+          avatar: require("@/assets/img/竟乘留学/06-顾问团队/七海老师.png"),
         },
       ],
     };
@@ -366,8 +366,6 @@ export default {
   font-display: swap;
   font-family: "Alibaba-PuHuiTi-Regular";
   src: url('https://nodestatic.fbstatic.cn/pan/downloads/cd57ab189b9edb7112fe8f9914e00105.ttf') format("truetype");
-}
-.wrap {
 }
 .banner {
   position: relative;
@@ -632,7 +630,7 @@ export default {
 }
 .coverSubject {
   height: 1250px;
-  background: url("@/assets/img/大乘留学/05-覆盖学科分支/覆盖学科分支-大背景.png")
+  background: url("@/assets/img/竟乘留学/05-覆盖学科分支/覆盖学科分支-大背景.png")
     no-repeat bottom center/auto 1250px;
   background-color: #3671e0;
   padding-top: 60px;

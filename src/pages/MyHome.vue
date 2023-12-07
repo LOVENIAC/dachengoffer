@@ -3,8 +3,6 @@
     <!-- Headers -->
     <MyHeader></MyHeader>
     <!-- contents -->
-    <!-- <MyAbroad v-if="tabIndex === 1"></MyAbroad>
-    <MyOffer v-else></MyOffer> -->
     <router-view></router-view>
     <!-- Footer -->
     <HomeFooter />

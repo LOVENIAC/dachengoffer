@@ -1,13 +1,17 @@
 <template>
   <div class="nav">
-    <router-link to="/">
-      <div class="nav-logo">
-        <img
-          src="@/assets/img/01-导航栏/logo.png"
-          alt="大乘offer"
-        >
-      </div>
-    </router-link>
+    <div
+      class="nav-logo"
+      @click="changeRouter({
+          index: 1,
+          path: '/dacheng-abroad'
+        })"
+    >
+      <img
+        src="@/assets/img/01-导航栏/logo.png"
+        alt="竟乘留学"
+      >
+    </div>
     <div class="nav-tabs">
       <div
         v-for="tab in tabList"
@@ -37,10 +41,10 @@
 <script>
 export default {
   name: "MyHeader",
-  created(){
-    this.tabList.forEach(tab=>{
-      if(tab.path == this.$route.path) this.selectTabIndex = tab.index;
-    })
+  created() {
+    this.tabList.forEach((tab) => {
+      if (tab.path == this.$route.path) this.selectTabIndex = tab.index;
+    });
   },
   methods: {
     changeLang() {
@@ -51,7 +55,7 @@ export default {
     changeRouter(tab) {
       // console.log(tab);
       this.selectTabIndex = tab.index;
-      this.$router.push(tab.path)
+      this.$router.push(tab.path);
     },
   },
   data() {
@@ -60,13 +64,13 @@ export default {
       tabList: [
         {
           index: 1,
-          name: "大乘留学",
-          path: '/dacheng-abroad'
+          name: "竟乘留学",
+          path: "/journeyon-abroad",
         },
         {
           index: 2,
-          name: "大乘offer",
-          path: '/dacheng-offer'
+          name: "竟乘求职",
+          path: "/journeyon-offer",
         },
       ],
     };
@@ -105,6 +109,7 @@ export default {
     }
   }
   .nav-logo {
+    cursor: pointer;
     width: fit-content;
     img {
       height: 31px;

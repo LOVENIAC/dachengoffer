@@ -22,7 +22,7 @@
   .dialogWrap{
     overflow: hidden;
     animation: a 0.5s linear;
-    background: url('https://nodestatic.fbstatic.cn/pan/downloads/a42b56fdb165b71db0b71f4f99b75e4f.png') no-repeat;
+    background: url('https://nodestatic.fbstatic.cn/pan/downloads/5cf25d3049c2d038a564f8b6061337df.png') no-repeat;
     background-size: 100%;
     text-align: center;
     padding: 30px;

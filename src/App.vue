@@ -15,7 +15,7 @@ export default {
     },
     _isAgreementPage(){
       let flag = window.location.pathname.match(
-        /(dacheng-use-clauses|dacheng-privacy|dacheng-user-agreement)/i
+        /(dacheng-use-clauses|dacheng-privacy|dacheng-user-agreement|promotion)/i
       );
       return flag;
     }
@@ -29,4 +29,8 @@ export default {
 </script>
 
 <style>
+.el-scrollbar .el-scrollbar__bar {
+      opacity: 1 !important;
+ }
+
 </style>

@@ -9,7 +9,7 @@
       <div class="banner">
         <div class="banner-content">
           <div class="banner-dacheng">
-            {{ $t('大乘offer') }}
+            {{ $t('竟乘offer') }}
           </div>
           <div class="banner-slogan">
             {{ $t('slogan') }}
@@ -212,7 +212,7 @@ export default {
           course: "求职系统小班",
           courseNum: "每班最高10人",
           courseDes:
-            "由大乘offer独立开发的求职系统班，将目前北美面试时间线清晰呈现，并对时间线上的每个环节进行深入指导。<br/><strong>通过求职系统班你将收获：</strong><br/>10节求职精讲课+3轮简历精修+3轮BQ修改+实时更新岗位投递直达链接库+保姆式督学+上课人数不超过10人+所有课程结束后给到整期课程回放，以及面试技巧指导等求职全流程服务。",
+            "由竟乘offer独立开发的求职系统班，将目前北美面试时间线清晰呈现，并对时间线上的每个环节进行深入指导。<br/><strong>通过求职系统班你将收获：</strong><br/>10节求职精讲课+3轮简历精修+3轮BQ修改+实时更新岗位投递直达链接库+保姆式督学+上课人数不超过10人+所有课程结束后给到整期课程回放，以及面试技巧指导等求职全流程服务。",
           "course-en": "Small Systematic Job Hunting Class",
           "courseNum-en": "10 students to the maximum/class",
           "courseDes-en":
@@ -225,7 +225,7 @@ export default {
           course: "算法精品小班",
           courseNum: "每班最高10人",
           courseDes:
-            "大乘offer独立开发算法精品小班课程，课程覆盖北美面试90%算法内容，特别针对模板在面试中的应用场景、应用技巧进行针对性课程设计。<br/><strong>通过算法精品班你将收获：</strong><br/>12节直播课+20多个算法模板+随堂知识点Mock+赠送1场专属Mock+题库永久+实时更新的岗位投递直达链接库+保姆式督学+上课人数不超过10人+所有课程结束后给到整期课程回放。",
+            "竟乘offer独立开发算法精品小班课程，课程覆盖北美面试90%算法内容，特别针对模板在面试中的应用场景、应用技巧进行针对性课程设计。<br/><strong>通过算法精品班你将收获：</strong><br/>12节直播课+20多个算法模板+随堂知识点Mock+赠送1场专属Mock+题库永久+实时更新的岗位投递直达链接库+保姆式督学+上课人数不超过10人+所有课程结束后给到整期课程回放。",
           "course-en": "Small High-quality Algorithm Class",
           "courseNum-en": "10 students to the maximum/class",
           "courseDes-en":
@@ -238,7 +238,7 @@ export default {
           course: "北美冲击大厂训练营",
           courseNum: "每月更新",
           courseDes:
-            "由大乘offer资深FLAG面试官讲授的训练营指导课，为大家全方面解决：简历+BQ+Coding问题。<br/>通过训练营你将收获：<br/>北美的最新求职趋势解读、市场分析，面试技巧、准备规划、算法刷题技巧与模版等等。",
+            "由竟乘offer资深FLAG面试官讲授的训练营指导课，为大家全方面解决：简历+BQ+Coding问题。<br/>通过训练营你将收获：<br/>北美的最新求职趋势解读、市场分析，面试技巧、准备规划、算法刷题技巧与模版等等。",
           "course-en": "[Updated monthly!] Bootcamp Lessons About North American Corporate!",
           "courseNum-en": "",
           "courseDes-en":

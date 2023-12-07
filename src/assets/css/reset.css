@@ -154,7 +154,6 @@ input:-webkit-autofill {
     vertical-align: middle;
     user-select: none;
     -webkit-user-drag: none;
-    pointer-events: none;
   }
   * {
     box-sizing: border-box;

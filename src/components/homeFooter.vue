@@ -9,23 +9,23 @@
         <div class="footer-info">
           <router-link
             target="_blank"
-            to="/dacheng-about-us"
+            to="/journeyon-about-us"
           >{{ $t("footer.footer-info.about-us") }}</router-link><span>｜</span>
           <router-link
             target="_blank"
-            to="/dacheng-about-us"
+            to="/journeyon-about-us"
           >{{ $t("footer.footer-info.contact-us") }}</router-link><span>｜</span>
           <a
             target="_blank"
-            href="./dacheng-use-clauses"
+            href="./journeyon-use-clauses"
           >{{ $t("footer.footer-info.use-clauses") }}</a><span>｜</span>
           <a
             target="_blank"
-            href="./dacheng-privacy"
+            href="./journeyon-privacy"
           >{{ $t("footer.footer-info.privacy") }}</a><span>｜</span>
           <a
             target="_blank"
-            href="./dacheng-user-agreement"
+            href="./journeyon-user-agreement"
           >{{ $t("footer.footer-info.user-agreement") }}</a>
         </div>
         {{ $t("footer.company") }}<br>

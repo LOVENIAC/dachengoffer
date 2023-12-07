@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MyHome from '@/pages/MyHome'
-import MyAbroad from "@/pages/abroad/Abroad";
 import MyOffer from "@/pages/offer/Offer";
-import dachengUserAgreement from '@/pages/footer/dacheng-user-agreement'
+import MyAbroad from "@/pages/abroad/Abroad";
+import MyPromotion from "@/pages/promotion/Promotion"
 import dachengPrivacy from '@/pages/footer/dacheng-privacy'
 import dachengAboutUs from '@/pages/footer/dacheng-aboutus'
 import dachengUseClauses from '@/pages/footer/dacheng-use-clauses'
+import dachengUserAgreement from '@/pages/footer/dacheng-user-agreement'
 // 获取原型对象push函数
 const originalPush = VueRouter.prototype.push
 
@@ -32,50 +33,57 @@ export default new VueRouter({
     {
       path: '/',
       component: MyHome,
-      redirect: '/dacheng-abroad',
+      redirect: '/journeyon-abroad',
       children:[
         {
-          path: 'dacheng-abroad',
+          path: 'journeyon-abroad',
           component: MyAbroad,
           meta: {
-            title: '大乘'
+            title: '竟乘'
           }
         },
         {
-          path: 'dacheng-offer',
+          path: 'journeyon-offer',
           component: MyOffer,
           meta: {
-            title: '大乘'
+            title: '竟乘'
           }
         },
       ]
     },
     {
-      path: '/dacheng-privacy',
+      path: '/journeyon-privacy',
       component: dachengPrivacy,
       meta: {
         title: ' 隐私协议'
       }
     },
     {
-      path: '/dacheng-user-agreement',
+      path: '/journeyon-user-agreement',
       component: dachengUserAgreement,
       meta: {
         title: '用户协议'
       }
     },
     {
-      path: '/dacheng-use-clauses',
+      path: '/journeyon-use-clauses',
       component: dachengUseClauses,
       meta: {
         title: '使用条款'
       }
     },
     {
-      path: '/dacheng-about-us',
+      path: '/journeyon-about-us',
       component: dachengAboutUs,
       meta: {
         title: '关于我们'
+      }
+    },
+    {
+      path: '/promotion',
+      component: MyPromotion,
+      meta: {
+        title: '竟乘'
       }
     },
     {
